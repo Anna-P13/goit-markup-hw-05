@@ -749,7 +749,6 @@ textarea {
     margin: auto;
     margin-top: 16px;
 
-    border-radius: 4px;
     max-width: 360px;
     max-height: 336px;
 }
@@ -760,7 +759,6 @@ textarea {
 
 .form-input {
     border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 4px;
     width: 360px;
     height: 40px;
     margin-top: 4px;
@@ -772,7 +770,7 @@ textarea {
     transition: color 150ms ease-in-out;
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16667;
+    line-height: 1.16;
     letter-spacing: 0.04em;
     color: #8e8f99;
 }
@@ -787,7 +785,6 @@ textarea {
 .form-input-comment {
 
     border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 4px;
     width: 360px;
     height: 120px;
     margin-top: 4px;
@@ -797,14 +794,26 @@ textarea {
 .form-label-checkbox {
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16667;
+    line-height: 1.16;
     letter-spacing: 0.04em;
     color: #8e8f99;
+
 }
 
 .form-checkbox {
-    border-radius: 2px;
+
     border: 1px solid rgba(46, 47, 66, 0.4);
     width: 16px;
     height: 16px;
+}
+
+.form-button {
+
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+    margin: auto;
+    margin-bottom: 24px;
 }
