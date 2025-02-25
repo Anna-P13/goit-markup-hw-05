@@ -676,3 +676,135 @@ button:focus {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0;
+    visibility: hidden;
+    pointer-events: none; */
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: opacity cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: visibility cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+.modal-window {
+    position: absolute;
+    top: 50%;
+    overflow-y: 80%;
+    transform: translateX(50%);
+    transform: translateY(-55%);
+    width: 408px;
+    height: 584px;
+    background: #fcfcfc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.modal-window.is-open {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+}
+
+.modal-par {
+    padding-top: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+input,
+textarea,
+button {
+    font-family: inherit;
+    line-height: inherit;
+}
+
+textarea {
+    resize: none;
+}
+
+.form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    margin: auto;
+    margin-top: 16px;
+
+    border-radius: 4px;
+    max-width: 360px;
+    max-height: 336px;
+}
+
+.form-button {
+    align-self: flex-start;
+}
+
+.form-input {
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    margin-top: 4px;
+}
+
+.form-label {
+    display: flex;
+    flex-direction: column;
+    transition: color 150ms ease-in-out;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+}
+
+.form-input:hover,
+.form-input:focus,
+.form-input-comment:hover,
+.form-input-comment:focus {
+    border: 1px solid #4d5ae5;
+}
+
+.form-input-comment {
+
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    width: 360px;
+    height: 120px;
+    margin-top: 4px;
+
+}
+
+.form-label-checkbox {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+}
+
+.form-checkbox {
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    width: 16px;
+    height: 16px;
+}
