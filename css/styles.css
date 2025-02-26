@@ -738,20 +738,20 @@ button:focus {
 
 .modal-icon-button:hover {
     border: none;
+    fill: #ffffff;
 }
 
 .modal-icon-button:focus {
     background-color: #404bbf;
+    border: none;
+    fill: #ffffff;
 }
+
 
 .modal-icons-one {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-icons-one:hover,
-.modal-icons-one:focus {
-    fill: #ffffff;
-}
 
 .modal-par {
     margin-bottom: 16px;
@@ -781,6 +781,7 @@ textarea {
     gap: 8px;
     margin: auto;
     margin-top: 16px;
+    margin-bottom: 8px;
 
     max-width: 360px;
     max-height: 336px;
@@ -798,15 +799,13 @@ textarea {
 }
 
 .form-label {
-    display: flex;
-    flex-direction: column;
-
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-
+    display: block;
+    margin-bottom: 4px;
 }
 
 .form-input:hover,
