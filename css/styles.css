@@ -752,9 +752,6 @@ textarea {
     max-height: 336px;
 }
 
-.form-button {
-    align-self: flex-start;
-}
 
 .form-input {
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -771,7 +768,7 @@ textarea {
 
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
 
@@ -810,7 +807,7 @@ textarea {
 .form-label-checkbox {
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
 
@@ -821,15 +818,65 @@ textarea {
     border: 1px solid rgba(46, 47, 66, 0.4);
     width: 16px;
     height: 16px;
+    margin-right: 8px;
+}
+
+.form-field {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .form-button {
 
-    padding: 16px 32px;
     width: 169px;
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
+    border-radius: 4px;
+    outline: transparent;
     margin: auto;
     margin-bottom: 24px;
+}
+
+.button-modal {
+
+    margin: 0 auto;
+    outline: transparent;
+    display: flex;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: opacity cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: visibility cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+button.button-modal:focus,
+button.button-modal:hover {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #404bbf;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+    cursor: pointer;
+    outline: transparent;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: opacity cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: visibility cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-window.button-modal {
+    align-items: flex-end;
+
+}
+
+
+.text-blue {
+    line-height: 1.33;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4d5ae5;
 }
