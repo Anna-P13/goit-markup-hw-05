@@ -872,6 +872,11 @@ textarea {
     border-color: #4D5AE5;
 }
 
+.form-field {
+    margin-bottom: 24px;
+}
+
+
 .form-label-checkbox {
     font-weight: 400;
     font-size: 12px;
@@ -881,13 +886,6 @@ textarea {
 
 }
 
-.form-checkbox {
-
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    width: 16px;
-    height: 16px;
-    margin-right: 8px;
-}
 
 .form-checkbox:hover,
 .form-checkbox:focus {
@@ -953,9 +951,9 @@ button.button-modal:hover {
 }
 
 
-.text-blue {
+/* .text-blue {
     line-height: 1.33;
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #4d5ae5;
-}
+} */
