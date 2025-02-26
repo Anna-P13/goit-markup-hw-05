@@ -796,6 +796,13 @@ textarea {
     outline: transparent;
     position: relative;
     padding-left: 38px;
+    border-radius: 4px;
+    background-color: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.person {
+    margin-bottom: 8px;
 }
 
 .form-label {
@@ -830,9 +837,10 @@ textarea {
 .modal-icons-person {
     position: absolute;
     top: 50%;
-    left: 12px;
+    left: 16px;
     transform: translateY(-50%);
     cursor: pointer;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 }
