@@ -760,6 +760,7 @@ textarea {
     margin-top: 4px;
     outline: transparent;
     position: relative;
+    padding-left: 38px;
 }
 
 .form-label {
@@ -780,10 +781,17 @@ textarea {
 .form-input-comment:focus {
     border: 1px solid #4d5ae5;
     outline: transparent;
+    fill: #4D5AE5;
+
 }
 
-.persone {
+.person-wrap {
     position: relative;
+}
+
+.person input:hover+svg,
+.person input:focus+svg {
+    fill: #4D5AE5;
 }
 
 .modal-icons-person {
@@ -792,7 +800,10 @@ textarea {
     left: 12px;
     transform: translateY(-50%);
     cursor: pointer;
+
+
 }
+
 
 .form-input-comment {
 
@@ -819,6 +830,11 @@ textarea {
     width: 16px;
     height: 16px;
     margin-right: 8px;
+}
+
+.form-checkbox:hover,
+.form-checkbox:focus {
+    background-color: #404BBF;
 }
 
 .form-field {
