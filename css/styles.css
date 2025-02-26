@@ -845,6 +845,9 @@ textarea {
 
 }
 
+.comment {
+    margin-bottom: 16px
+}
 
 .form-input-comment {
 
