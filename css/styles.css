@@ -690,8 +690,8 @@ button:focus {
     justify-content: center;
     align-items: center;
     opacity: 0;
-   visibility: hidden;
-   pointer-events: none;
+    visibility: hidden;
+    pointer-events: none;
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: opacity cubic-bezier(0.4, 0, 0.2, 1);
@@ -862,6 +862,7 @@ textarea {
 .button-modal {
 
     margin: 0 auto;
+    border: none;
 
     display: flex;
     transition-property: background-color;
