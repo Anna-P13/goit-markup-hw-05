@@ -689,9 +689,9 @@ button:focus {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* opacity: 0;
-    visibility: hidden;
-    pointer-events: none; */
+    opacity: 0;
+   visibility: hidden;
+   pointer-events: none;
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: opacity cubic-bezier(0.4, 0, 0.2, 1);
@@ -844,21 +844,25 @@ textarea {
 }
 
 .form-button {
-
+    display: block;
+    align-items: flex-end;
+    margin: 0 auto;
+    border: none;
     width: 169px;
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     border-radius: 4px;
-    outline: transparent;
-    margin: auto;
-    margin-bottom: 24px;
+
+
 }
+
+
 
 .button-modal {
 
     margin: 0 auto;
-    outline: transparent;
+
     display: flex;
     transition-property: background-color;
     transition-duration: 250ms;
@@ -871,13 +875,14 @@ button.button-modal:hover {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #404bbf;
 
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
 
     cursor: pointer;
-    outline: transparent;
+
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: opacity cubic-bezier(0.4, 0, 0.2, 1);
