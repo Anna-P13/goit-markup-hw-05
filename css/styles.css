@@ -743,7 +743,6 @@ textarea {
 .form {
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start;
     flex-direction: column;
     gap: 8px;
     margin: auto;
@@ -762,17 +761,20 @@ textarea {
     width: 360px;
     height: 40px;
     margin-top: 4px;
+    outline: transparent;
+    position: relative;
 }
 
 .form-label {
     display: flex;
     flex-direction: column;
-    transition: color 150ms ease-in-out;
+
     font-weight: 400;
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.04em;
     color: #8e8f99;
+
 }
 
 .form-input:hover,
@@ -780,6 +782,19 @@ textarea {
 .form-input-comment:hover,
 .form-input-comment:focus {
     border: 1px solid #4d5ae5;
+    outline: transparent;
+}
+
+.persone {
+    position: relative;
+}
+
+.modal-icons-person {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    cursor: pointer;
 }
 
 .form-input-comment {
@@ -788,6 +803,7 @@ textarea {
     width: 360px;
     height: 120px;
     margin-top: 4px;
+    outline: transparent;
 
 }
 
