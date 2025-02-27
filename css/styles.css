@@ -950,14 +950,6 @@ button.button-modal:hover {
 
 }
 
-
-/* .text-blue {
-    line-height: 1.33;
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
-    color: #4d5ae5;
-} */
-
 .privacy-check {
     width: 16px;
     height: 16px;
@@ -970,4 +962,17 @@ button.button-modal:hover {
         fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     justify-content: center;
     fill: transparent;
+}
+
+input:checked+span {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
+}
+
+.text-blue {
+    line-height: 1.33;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4d5ae5;
 }
