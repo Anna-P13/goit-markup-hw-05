@@ -621,7 +621,7 @@ button:focus {
     width: 208px;
     height: 80px;
     gap: 16px;
-    margin-right: 120px;
+    margin-right: 80px;
 
 }
 
@@ -724,7 +724,6 @@ button:focus {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    gap: 16px;
     font-family: "Roboto", sans-serif;
     color: #ffffff;
     cursor: pointer;
