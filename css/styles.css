@@ -692,10 +692,6 @@ button:focus {
     gap: 24px;
 }
 
-.form-emeil {
-    gap: 24px;
-}
-
 .input-email {
     width: 264px;
     height: 40px;
@@ -729,7 +725,7 @@ button:focus {
     color: #ffffff;
     cursor: pointer;
     border: none;
-    margin-left: 24px;
+
 }
 
 .svg-send {
