@@ -689,6 +689,7 @@ button:focus {
 
 .form-sub {
     display: flex;
+    gap: 24px;
 }
 
 .form-emeil {
