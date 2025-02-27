@@ -704,7 +704,6 @@ button:focus {
     position: absolute;
     left: 50%;
     top: 50%;
-    overflow-y: 80%;
     transform: translate(-50%, -50%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 408px;
@@ -756,6 +755,7 @@ button:focus {
 
 
 .modal-par {
+    margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -778,10 +778,6 @@ textarea {
 .form {
     display: flex;
     flex-direction: column;
-    margin: auto;
-    margin-top: 16px;
-    margin-bottom: 8px;
-
     max-width: 360px;
     max-height: 336px;
 }
