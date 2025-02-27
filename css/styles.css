@@ -898,7 +898,9 @@ textarea {
     justify-content: flex-start;
 }
 
-.form-button {
+
+
+.button-modal {
     display: block;
     align-items: flex-end;
     margin: 0 auto;
@@ -909,12 +911,6 @@ textarea {
     background: #4d5ae5;
     border-radius: 4px;
 
-
-}
-
-
-
-.button-modal {
 
     margin: 0 auto;
     border: none;
@@ -964,7 +960,7 @@ button.button-modal:hover {
     fill: transparent;
 }
 
-input:checked+span {
+.form-checkbox:checked+label.privacy-check {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
