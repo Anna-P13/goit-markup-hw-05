@@ -902,6 +902,8 @@ textarea {
 
 .button-modal {
     display: block;
+    margin: auto;
+
     border: none;
     min-width: 169px;
     height: 56px;
