@@ -698,6 +698,8 @@ button:focus {
 }
 
 .modal-window {
+    display: flex;
+    flex-direction: column;
     padding: 72px 24px 24px 24px;
     position: absolute;
     left: 50%;
@@ -712,7 +714,7 @@ button:focus {
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
 }
 
-.modal-window .is-open {
+.is-open {
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
@@ -754,7 +756,6 @@ button:focus {
 
 
 .modal-par {
-    margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -776,9 +777,7 @@ textarea {
 
 .form {
     display: flex;
-    align-items: flex-start;
     flex-direction: column;
-    gap: 8px;
     margin: auto;
     margin-top: 16px;
     margin-bottom: 8px;
@@ -903,7 +902,6 @@ textarea {
 .button-modal {
     display: block;
     margin: auto;
-
     border: none;
     min-width: 169px;
     height: 56px;
