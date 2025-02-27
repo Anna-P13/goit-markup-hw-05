@@ -779,7 +779,7 @@ textarea {
     display: flex;
     flex-direction: column;
     max-width: 360px;
-    max-height: 336px;
+    min-height: 336px;
 }
 
 
